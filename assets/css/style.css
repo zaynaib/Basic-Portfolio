@@ -5,7 +5,9 @@ About Page Style
 ===========================*/
 body{
 	background-image: url("../images/whirlpool.png");
-	
+	height: 100%;
+	display: flex;
+  	flex-direction: column;
 }
 header{
 	height:85px;
@@ -28,7 +30,7 @@ nav{
 	
 	list-style-type: none;
 	float:right;
-	margin-right:35px;
+	margin-right:150px;
 	margin-top:35px;
 }
 
@@ -58,6 +60,7 @@ p{
 	max-width:960px;
 	margin-top: 40px;
 	margin-left:180px;
+	flex: 1 0 auto;
 
 }
 
@@ -68,6 +71,7 @@ section{
 	margin-left: 15px;
 	border:2px solid lightgrey;
 	padding: 8px;
+	margin-bottom: 50px;
 }
 
 
@@ -90,11 +94,6 @@ aside{
 	width:270px;
 	float: right;
 	padding-top:8px;
-	/*
-	border:solid;
-	border-width:1px;
-	border-color:lightgrey;
-	*/
 }
 
 h3{
@@ -130,11 +129,11 @@ footer{
 	clear:both;
 	background-color:#999;
 	color:white;
-	height:50px;
+	/*height:50px;*/
 	padding-top:25px;
 	text-align:center;
 	font-size:18px;
-
+	min-height: calc(10vh - 2em);
 }
 
 
