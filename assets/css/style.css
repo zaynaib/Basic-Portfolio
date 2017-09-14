@@ -3,6 +3,10 @@
 About Page Style
 
 ===========================*/
+body{
+	background-image: url("Basic-Portfolio/assets/images/whirlpool.png");
+	
+}
 header{
 	height:85px;
 	background-color: #fff;
@@ -37,10 +41,9 @@ p{
 	font-size:18px;
 }
 #wrapper{
-	width:960px;
+	max-width:960px;
 	margin-top: 40px;
 	margin-left:180px;
-	min-height:calc(100vh -80px);
 }
 
 
@@ -48,6 +51,7 @@ section{
 	width:650px;
 	float:left;
 	margin-left: 15px;
+	border:2px solid lightgrey;
 }
 
 
@@ -167,16 +171,6 @@ input[type=text]:focus ,input[type=email]:focus{
 Gallery Page Style
 
 ===========================*/
-/*
-.row img{
-	width: 300px;
-	margin-left:15px;
-	margin-top:15px;
-	margin-bottom:10px;
-	float:left;
-}
-
-*/
 
 .row img{
 	width:300px;
