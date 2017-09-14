@@ -211,6 +211,7 @@ figcaption{
 	position: absolute;
     font-size: 25px;   
     float:right;
+    bottom:25px;
     width:100%;
 
 }
