@@ -167,3 +167,14 @@ input[type=text]:focus ,input[type=email]:focus{
 Gallery Page Style
 
 ===========================*/
+.row img{
+	width: 300px;
+	margin-left:15px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+
+#gallery{
+
+}
