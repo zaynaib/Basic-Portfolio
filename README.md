@@ -10,8 +10,7 @@ the browser window to whatever pixel range you want and it also emulate differen
 
 Folder Structure
 
-$ tree
-.
+```
 ├── Basic-Portfolio
 │   ├── README.md
 │   |── index.html
@@ -25,6 +24,7 @@ $ tree
 
 
 3 directories, 6 files
+```
 
 [Link to Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh?hl=en)
 
